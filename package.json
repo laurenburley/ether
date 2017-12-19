@@ -1,0 +1,29 @@
+{
+  "name": "ether",
+  "version": "1.0.0",
+  "description": "Examples, samples and tools for Ether usage",
+  "private": true,
+  "scripts": {
+    "build": "node-sass src/base.scss -o build/css/ && npm run prefix",
+    "clean": "del-cli build/",
+    "prefix": "postcss build/css/base.css -d dist/css/ --use autoprefixer && npm run clean",
+    "watch": "nodemon -e scss --exec 'npm run build'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearethescenery/ether.git"
+  },
+  "author": "The Scenery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wearethescenery/ether/issues"
+  },
+  "homepage": "https://github.com/wearethescenery/ether#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "del-cli": "^1.1.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.13.3",
+    "postcss-cli": "^4.1.1"
+  }
+}
