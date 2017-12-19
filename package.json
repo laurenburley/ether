@@ -4,7 +4,9 @@
   "description": "Example libraries for building a system with Ether",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-sass src/base.scss -o build/css/ && npm run prefix",
+    "prefix": "postcss build/css/base.css -d dist/css/ --use autoprefixer",
+    "watch": "nodemon -e src -x \"npm run build\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/wearethescenery/ether/issues"
   },
-  "homepage": "https://github.com/wearethescenery/ether#readme"
+  "homepage": "https://github.com/wearethescenery/ether#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.13.3",
+    "postcss-cli": "^4.1.1"
+  }
 }
