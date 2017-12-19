@@ -1,8 +1,8 @@
 {
   "name": "ether",
   "version": "1.0.0",
-  "description": "Example libraries for building a system with Ether",
-  "main": "index.js",
+  "description": "Examples, samples and tools for Ether usage",
+  "private": true,
   "scripts": {
     "build": "node-sass src/base.scss -o build/css/ && npm run prefix",
     "clean": "del-cli build/",
