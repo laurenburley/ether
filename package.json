@@ -7,7 +7,7 @@
     "build": "node-sass src/base.scss -o build/css/ && npm run prefix",
     "clean": "del-cli build/",
     "prefix": "postcss build/css/base.css -d dist/css/ --use autoprefixer && npm run clean",
-    "watch": "nodemon -e src -x 'npm run build'"
+    "watch": "nodemon -e scss --exec 'npm run build'"
   },
   "repository": {
     "type": "git",
