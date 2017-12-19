@@ -1,0 +1,22 @@
+@import "colors/_colors";
+@import "colors/_color-variables";
+
+// Type
+.color--darkest { color: $type--darkest; }
+.color--dark { color: $type--dark; }
+.color--medium { color: $type--medium; }
+.color--light { color: $type--light; }
+.color--white { color: $type--white; }
+.color--accent {  color: $type--accent; }
+
+// Icons
+.icon--dark { fill: $icon--dark; }
+.icon--white { fill: $icon--white; }
+.icon--accent { fill: $icon--accent }
+.icon--success { fill: $icon--success; }
+.icon--info { fill: $icon--info; }
+.icon--warning { fill: $icon--warning; }
+.icon--danger { fill: $icon--danger; }
+
+// Buttons
+.button--accent { background-color: $button--accent; }

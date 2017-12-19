@@ -1,0 +1,76 @@
+@import "colors/_colors";
+
+// Semantic
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+
+// Type
+$type--darkest: $dark;
+$type--dark: $dark-85;
+$type--medium: $dark-75;
+$type--light: $dark-50;
+$type--white: $white;
+$type--accent: $red;
+$type--link: $red;
+$type--link-hover: $red--dark;
+$type--success: $green;
+$type--info: $blue;
+$type--warning: $yellow;
+$type--danger: $red;
+
+// Code Highlighting
+$highlight--background: rgba($light-90, .5);
+$highlight--gutter-border: rgba($dark-85, .5);
+
+// Buttons
+$button-primary-background: $red;
+$button-primary-color: $white;
+
+$button-secondary-background: $white;
+$button-secondary-border: $light-110;
+$button-secondary-color: $dark;
+
+$button--accent: $green;
+
+// Icons
+$icon--dark: $dark;
+$icon--white: $white;
+$icon--accent: $red;
+$icon--success: $success;
+$icon--info: $info;
+$icon--warning: $warning;
+$icon--danger: $danger;
+
+// Header
+$header-background-color: $white;
+$header-active-background-color: $tiber;
+$header-border-color: rgba($dark-85, .5);
+$header-overlay-color: $tiber;
+$header-logo-color: $red;
+$header-active-logo-color: $white;
+$header-active-index-toggle-color: $white;
+
+// Header Index
+$header-index-border: $tiber--light-3;
+$header-index-tertiary-background: $tiber--dark;
+$header-index-links-hover: $white;
+
+// Footer
+$footer-border-color: rgba($dark-85, .5);
+$footer-link-color: $red;
+
+// Inner Nav
+$inner-nav-border-color: $light;
+$inner-nav-link-color: $dark;
+
+// Heading borders
+$heading-border-color: $dark-75;
+
+// Sections
+$featured-section-background: $yellow;
+
+// Rules
+$rule--dark: $dark-85;
+$rule--light: $light-110;
