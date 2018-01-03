@@ -5,7 +5,7 @@ Examples, samples and tools for Ether usage
 `npm install` will install all dependencies.
 
 ## Development
-`npm run build` will will build the Sass, then autoprefix it.
+`npm run build` will build the Sass, then autoprefix it.
 
 `npm run watch` will watch for changes, then run `npm run build` automagically.
 
